@@ -1,0 +1,162 @@
+```css
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.7;
+    min-height: 100vh;
+    padding: 60px 20px;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+body > * {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+h1 {
+    font-size: 3rem;
+    color: #f8fafc;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: #22c55e;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+.section {
+    background: #1e293b;
+    padding: 30px;
+    margin-top: 25px;
+    border: 1px solid #334155;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.2s ease,
+                border-color 0.2s ease;
+}
+
+.section:hover {
+    transform: translateY(-3px);
+    border-color: #22c55e;
+}
+
+
+/* =========================
+   HEADINGS
+========================= */
+
+h2 {
+    color: #22c55e;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   PARAGRAPHS
+========================= */
+
+p {
+    color: #cbd5e1;
+    font-size: 1rem;
+}
+
+
+/* =========================
+   LISTS
+========================= */
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+li {
+    position: relative;
+    padding: 8px 0 8px 25px;
+    color: #cbd5e1;
+}
+
+li::before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    color: #22c55e;
+    font-weight: bold;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    color: #4ade80;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #86efac;
+    text-decoration: underline;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 35px 15px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .section {
+        padding: 22px;
+    }
+}
+```
