@@ -1,9 +1,33 @@
-# nyakito.github.io
+# Week 00: GitHub Pages
+## Author
+- **Name:** Nyakito Noah
+- **GitHub:** [@Nyakito](https://github.com/Nyakito)
+- **Date:** 09 15, 2026
 
-**The website**
----
-I made this website simple at first, with every iteration I make, better believe that's how much I know, One time if it goes *Crazy* don't worry about it.
+## Project Description
+Hosting a personal profile webpage on GitHub pages.
 
->I don't have so much to say except for...
+## Technologies Used
+- HTML5
+- CSS3
+- git
+- GitHub
 
-## Good bye!
+## Features
+- Clean HTML 
+- Good CSS structure
+
+## How to Run
+1. Clone this repository
+2. Open `index.html` in your browser
+   OR
+   Run `npm install` then `npm start`
+
+## Lessons Learned
+GitHub pages is easy to use and hosts pages for free, the only downside is that it hosts only static websites
+
+## Challenges Faced
+No challenges faced at this level
+
+## Live Demo
+[Website](nyakito.github.io)
