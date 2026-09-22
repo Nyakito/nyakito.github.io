@@ -3,9 +3,7 @@
 
 <head>
 
-    <!-- =========================================
-         DOCUMENT INFORMATION
-    ========================================== -->
+    <!-- Head section, this section stores metadata, metadata is data that helps the browser read our code as intended-->
 
     <meta charset="UTF-8">
 
@@ -16,7 +14,7 @@
 
     <meta
         name="description"
-        content="Personal portfolio of a frontend developer specializing in HTML5."
+        content="Personal portfolio of a frontend developer."
     >
 
     <meta
@@ -32,13 +30,12 @@
     <title>Nyakito Noah | Frontend Developer</title>
 
 
-    <!-- =========================================
-         STYLESHEET
-    ========================================== -->
+    <!--This is how I liked my css to the html document
+    I used the link attribute to do that and putting css in a seperate file is a good practice-->
 
     <link
         rel="stylesheet"
-        href="https://github.nyakito.io/style.css"
+        href="style.css"
     >
 
 </head>
@@ -47,9 +44,7 @@
 <body>
 
 
-    <!-- =========================================
-         HEADER
-    ========================================== -->
+    <!-- thae above one was the head, now this is the header section, basically a page is broken into head->body->footer -->
 
     <header class="site-header">
 
@@ -110,16 +105,13 @@
     </header>
 
 
-    <!-- =========================================
-         MAIN CONTENT
-    ========================================== -->
+    <!-- The main acts as the body here, it's where most information resides-->
 
     <main>
 
 
-        <!-- =====================================
-             HERO SECTION
-        ====================================== -->
+        <!-- Hero section  is the main section in a website, think of it as the attention grabbing part of a website
+         it's literally called "Hero" it has to stand out. -->
 
         <section
             id="home"
@@ -155,8 +147,10 @@
 
                     </p>
 
-
-                    <div class="hero-buttons">
+                <!-- Think of div as an empty container, containers like section seperate the page into sections but they have a meaning,
+                 they tell the browser that this is a different section, 
+                 while div just give you a container and it's uporn you to decide what this container will become-->
+                <div class="hero-buttons">
 
                         <a
                             href="#projects"
@@ -364,9 +358,8 @@
         </section>
 
 
-        <!-- =====================================
-             SKILLS
-        ====================================== -->
+        <!-- this is part of the main/body but it's a different section, representing skills, now I hope you understand,
+         the difference between Div and section -->
 
         <section id="skills">
 
@@ -472,9 +465,8 @@
         </section>
 
 
-        <!-- =====================================
-             LEARNING
-        ====================================== -->
+        <!-- yet another section, I don't know if these sections have effect on screen readers, that's what I told someone
+         in class yesterday, but I will find out -->
 
         <section id="learning">
 
@@ -570,9 +562,7 @@
         </section>
 
 
-        <!-- =====================================
-             PROJECTS
-        ====================================== -->
+        <!-- Section containing my projects-->
 
         <section id="projects">
 
@@ -762,9 +752,7 @@
         </section>
 
 
-        <!-- =====================================
-             DEVELOPMENT JOURNEY
-        ====================================== -->
+        <!-- I actually have a very minimal development journey, but we ball anyway -->
 
         <section id="journey">
 
@@ -866,9 +854,7 @@
         </section>
 
 
-        <!-- =====================================
-             GOALS
-        ====================================== -->
+        <!-- It's the hopes that kill a man, but here are our Goals-->
 
         <section id="goals">
 
@@ -959,9 +945,7 @@
         </section>
 
 
-        <!-- =====================================
-             CONTACT
-        ====================================== -->
+        <!-- and sometime, remember to put contacts inside address, only if you need it of cause -->
 
         <section id="contact">
 
@@ -997,11 +981,13 @@
                             <a
                                 href="https://github.com/Nyakito"
                                 target="_blank"
-                                rel="noopener noreferrer"
+                                rel="noopener"
                             >
                                 GitHub →
                             </a>
-
+<!--The rel="noopener" This tells the browser not to send the referring page's 
+URL to the destination in the HTTP Referer header.
+-->
                             <a
                                 href="https://www.linkedin.com/in/noah-nyakito"
                                 target="_blank"
@@ -1107,9 +1093,7 @@
     </main>
 
 
-    <!-- =========================================
-         FOOTER
-    ========================================== -->
+    <!--And most of the time(always for me anyway) the footer is the last part of a page-->
 
     <footer class="site-footer">
 
